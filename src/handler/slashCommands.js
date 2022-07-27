@@ -40,3 +40,6 @@ module.exports = (client) => {
         }
     })();
 }
+
+// Code By: WearTIme
+// Constributor: Reyhan OP

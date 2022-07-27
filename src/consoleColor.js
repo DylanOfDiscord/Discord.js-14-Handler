@@ -14,5 +14,7 @@ const consoleColor = color({
         },
       },
 })
+// Code By: WearTIme
+// Constributor: Reyhan OP
 
 module.exports = consoleColor;

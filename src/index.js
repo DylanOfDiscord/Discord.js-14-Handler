@@ -91,4 +91,7 @@ mongoose.connection.on('disconnected', () => {
     require(`./handler/${handler}`)(client);
 })
 
+// Code By: WearTIme
+// Constributor: Reyhan OP
+
 client.login(process.env.TOKEN)

@@ -70,6 +70,9 @@ module.exports = {
             }
         }
 
+        // Code By: WearTIme
+        // Constributor: Reyhan OP
+
         if (command.ownerOnly && message.author.id !== `${client.owner}`) {
             errorEmbed.setDescription(`Only <@${client.owner} can use this command`)
             return message.channel.send({ embeds: [errorEmbed] })
