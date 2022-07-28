@@ -1,5 +1,5 @@
 {
-    "prefix": "!",
-    "clientID": "",
-    "ownerID": ""
+    "prefix": "Put Your Bot Prefix",
+    "clientID": "Put Your Bot ClientID ",
+    "ownerID": "Put Your ID"
 }
