@@ -1,4 +1,5 @@
 {
-    "prefix": "!",
-    "clientID": "1001395105879576616"
+    "prefix": "!", // Your Bot Prefix
+    "clientID": "", // Your Bot client Id 
+    "owner": "" // Your Id
 }
