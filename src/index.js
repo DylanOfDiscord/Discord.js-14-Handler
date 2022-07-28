@@ -49,6 +49,7 @@ client.commands = new Collection();
 client.aliases = new Collection();
 client.slashCommands = new Collection();
 client.config = require('./config/config.json');
+client.owner = client.config.owner;
 client.emojis = require('./config/emoji.json');
 client.consoleColor = require('./consoleColor');
 require('dotenv').config();
@@ -90,8 +91,5 @@ mongoose.connection.on('disconnected', () => {
 ["commands", "events", "slashCommands"].forEach((handler) => {
     require(`./handler/${handler}`)(client);
 })
-
-// Code By: WearTIme
-// Constributor: Reyhan OP
 
 client.login(process.env.TOKEN)
