@@ -26,11 +26,13 @@ node src/index
 "ownerID": "" // Your ID
 ```
 
+rename `.env.example` to `.env` and put your token and Mongo DB
+
 ## Requirements
 
 - [Nodejs](https://nodejs.org/en/) - v16
 - [Discord.js](https://github.com/discordjs/discord.js/) - v14
-
+- [MongoDB](https://www.mongodb.com/)
 
 
 
