@@ -10,7 +10,7 @@ module.exports = {
      */
     execute: async (client, interaction) => {
         const data = await prefixData.findOne({
-            guildId: message.guildId
+            guildId: interaction.guildId
         });
 
         const prefix = data?.prefix ?? client.config.prefix;
