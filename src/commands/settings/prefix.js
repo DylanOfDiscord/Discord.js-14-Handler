@@ -41,7 +41,6 @@ module.exports = {
                     prefix: args[0]
                 }
             )
-            pre.save()
             const update = new EmbedBuilder()
               .setDescription(`Your prefix has been updated to **${args[0]}**`)
               .setColor("#05f7b3")
@@ -52,7 +51,6 @@ module.exports = {
                 guildId: message.guildId,
                 prefix: args[0],
             });
-            await newData.save()
             const embed = new EmbedBuilder()
             .setDescription(`Custom prefix in this server is now set to **${args[0]}**`)
             .setColor("#05f7b3")
