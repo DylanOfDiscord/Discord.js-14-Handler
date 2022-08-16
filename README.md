@@ -7,7 +7,7 @@ This is Discord.js v14 handler by me, if in the code same code with other user c
 ## Installation
 
 ```bash
-https://github.com/WearTime/Discord.js-14-Handler.git
+git clone https://github.com/WearTime/Discord.js-14-Handler.git
 ```
 After Cloning, Run This:
 ```bash
